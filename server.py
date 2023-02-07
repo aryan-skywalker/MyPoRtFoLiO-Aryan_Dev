@@ -41,5 +41,8 @@ def submit_form():
         return redirect('thankyou.html') 
     else:
         return 'form not submitted - something went wrong!'
+ 
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=5000)
 
 
